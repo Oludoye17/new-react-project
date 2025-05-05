@@ -80,6 +80,8 @@ import React from 'react'
 import Welcome from './components/Welcome';
 import WelcomeHook from './components/WelcomeHook';
 import Counter from './components/counter';
+import UseEffects from './components/UseEffects';
+import Countries from './components/Countries';
 
 
 const App = () => {
@@ -90,7 +92,12 @@ const App = () => {
       <WelcomeHook/>
       <hr />
       <Counter/>
+      <hr />
+      <UseEffects/>
+      <hr />
+      <Countries/>
     </div>
+    
   );
 };
 
